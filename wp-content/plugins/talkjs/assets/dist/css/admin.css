@@ -1,0 +1,131 @@
+.settings-page-wrapper {
+  padding: 30px 30px 30px 30px;
+  background: white;
+  max-width: 700px;
+  margin: 50px 0;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+.settings-page-wrapper h2 {
+  padding: 0 0 30px 0;
+  margin-top: 0;
+  font-size: 2em;
+}
+.settings-page-wrapper .settings-wrapper h3 {
+  padding-top: 15px;
+  margin-top: 45px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.settings-page-wrapper .settings-wrapper + .button-wrapper {
+  margin: 15px 0 0 0;
+  padding: 15px 0 0 0;
+  border-top: 2px solid #eee;
+  text-align: right;
+}
+.settings-page-wrapper .settings-wrapper + .button-wrapper .general-error-msg {
+  color: crimson;
+  display: none;
+  padding: 5px 15px 0 0;
+  line-height: 30px;
+}
+.settings-page-wrapper .settings-wrapper + .button-wrapper .general-error-msg.active {
+  display: inline;
+}
+
+.field-wrapper {
+  max-width: 500px;
+  position: relative;
+  margin: 0 0 15px 0;
+}
+.field-wrapper label {
+  display: block;
+}
+.field-wrapper input, .field-wrapper select, .field-wrapper textarea {
+  width: 100%;
+  padding: 4px 6px;
+}
+.field-wrapper input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+.field-wrapper input[type="checkbox"] + label {
+  display: inline-block;
+}
+.field-wrapper.field-checkbox {
+  padding-top: 30px;
+  margin-top: 50px;
+  border-top: 2px solid #eee;
+}
+.field-wrapper.validated:after {
+  font-family: 'dashicons';
+  position: absolute;
+  font-size: 2em;
+  right: 5px;
+  top: 30px;
+}
+.field-wrapper.validated-true:after {
+  content: "\f147";
+  color: limegreen;
+}
+.field-wrapper.validated-false:after {
+  content: "\f335";
+  color: crimson;
+}
+.field-wrapper.validated-false input {
+  border: 1px solid crimson;
+}
+.field-wrapper.field-checkboxes label > span {
+  min-width: 150px;
+  display: inline-block;
+}
+.field-wrapper .validation-errors {
+  color: crimson;
+  padding: 4px 0 0 30px;
+  border-left: 3px solid crimson;
+  margin-top: 10px;
+}
+.field-wrapper .validation-errors a {
+  color: crimson;
+}
+.field-wrapper .validation-errors a:hover {
+  color: #444;
+}
+.field-wrapper .config-error {
+  font-size: .8em;
+  color: crimson;
+  display: inline-block;
+  padding: 3px 0 0 10px;
+  margin: 0;
+}
+
+.talkjs-onboarding {
+  max-width: 500px;
+  background: white;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  padding: 15px;
+}
+.talkjs-onboarding h2 {
+  margin-top: 5px;
+  text-align: center;
+}
+.talkjs-onboarding .settings-wrapper p {
+  font-size: 1.2em;
+}
+.talkjs-onboarding .settings-wrapper p.config-error {
+  font-size: .8em;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+.talkjs-onboarding .settings-wrapper + .button-wrapper {
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+  padding-right: 0;
+}
+.talkjs-onboarding .field-checkboxes .validation-errors {
+  display: none;
+}
+
+/*# sourceMappingURL=admin.css.map */

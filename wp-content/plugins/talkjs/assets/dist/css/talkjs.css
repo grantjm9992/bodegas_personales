@@ -1,0 +1,26 @@
+#notification-badge{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: crimson;
+	border: 2px solid white;
+	box-shadow: 1px 1px 3px rgba( 0,0,0,.3 );
+	display: inline-block;
+	margin: 0 10px -5px 0;
+	font-size: 11px;
+	color: white;
+	text-align: center;
+}
+
+#notification-badge span{
+	display: block;
+	width: 100%;
+}
+
+#notification-badge.talkjs-hidden{
+	display: none;
+}
+
+.talkjs-inbox.talkjs-hidden{
+	display: none;
+}

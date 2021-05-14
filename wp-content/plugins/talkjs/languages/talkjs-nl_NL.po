@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-10-13 13:51+0200\n"
+"PO-Revision-Date: 2017-10-13 14:00+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ../classes\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/EventListeners.php:43
+msgid "Settings"
+msgstr "Instellingen"
+
+#: admin/OnboardingPageCreator.php:30
+msgid "Welcome to TalkJS!"
+msgstr "Welkom bij TalkJS!"
+
+#: admin/OnboardingPageCreator.php:63 admin/SettingsPageCreator.php:69
+msgid "Test App ID"
+msgstr "Test App ID"
+
+#: admin/OnboardingPageCreator.php:64 admin/SettingsPageCreator.php:70
+msgid "Your TalkJS Test App ID"
+msgstr "Je TalkJS Test App ID"
+
+#: admin/OnboardingPageCreator.php:71 admin/SettingsPageCreator.php:77
+msgid "Test Publishable Key"
+msgstr "Test Publishable Key"
+
+#: admin/OnboardingPageCreator.php:72 admin/SettingsPageCreator.php:78
+msgid "Your TalkJS Test Publishable Key"
+msgstr "Je TalkJS Test Publishabel Key"
+
+#: admin/SettingsPageCreator.php:29
+msgid "TalkJS Settings"
+msgstr "TalkJS Instellingen"
+
+#: admin/SettingsPageCreator.php:49
+#, php-format
+msgid ""
+"This plugin connects the <a href=\"%s\">TalkJS user-to-user chat service</a> "
+"to your WordPress site.\n"
+"\n"
+"\n"
+"                    TalkJS includes an \"Inbox page\", with the current "
+"user's full conversation history. \n"
+"                    We already created such a page for you, <a href=\"%s"
+"\">set it up here</a>"
+msgstr ""
+"Deze plugin verbind de <a href=\"%s\">TalkJS user-to-user chat service</a> "
+"aan je WordPress site.\n"
+"\n"
+"\n"
+"TalkJS voegt een \"inbox pagina\" toe met de volledige conversatie "
+"geschiedenis van de huidige gebruiker. \n"
+"We hebben hiervoor al een pagina voor je aangemaakt; <a href=\"%s\">bekijk "
+"het hier</a>"
+
+#: admin/SettingsPageCreator.php:57
+msgid "TalkJS Credentials"
+msgstr "TalkJS gegevens"
+
+#: admin/SettingsPageCreator.php:63
+msgid ""
+"TalkJS can run in test mode and in live mode. Test mode is free forever \n"
+"                    but you're not allowed to use it for anything other than "
+"testing.\n"
+"\n"
+"\n"
+"                    When you signed up, you immediately got access to the "
+"TalkJS test mode app id:"
+msgstr ""
+"TalkJS kan in test-modus of in live modus draaien. De test modus is voor "
+"altijd gratis \n"
+"maar je kunt het niet voor iets anders dan testen gebruiken. \n"
+"\n"
+"Als je je aanmeld krijg je direct toegang tot een TalkJS test-modus App Id"
+
+#: admin/SettingsPageCreator.php:86
+#, php-format
+msgid ""
+"If you want to go live with real users, go to the <a href=\"%s\">TalkJS "
+"Dashboard</a>, \n"
+"                provide payment information, and then copy the live mode app "
+"id here:"
+msgstr ""
+"Als je live wilt gaan (met echter gebruikers), ga dan naar je <a href=\"%s"
+"\">TalkJS Dashboard</a>,\n"
+"voeg je betaalinformatie toe en kopieer je live-modues App Id hier:"
+
+#: admin/SettingsPageCreator.php:92
+msgid "App ID"
+msgstr "App ID"
+
+#: admin/SettingsPageCreator.php:93
+msgid "Your TalkJS App ID"
+msgstr "Je TalkJS App ID"
+
+#: admin/SettingsPageCreator.php:100
+msgid "Publishable Key"
+msgstr "Publishable Key"
+
+#: admin/SettingsPageCreator.php:101
+msgid "Your TalkJS Publishable Key"
+msgstr "Je TalkJS Publishable Key"
+
+#: admin/SettingsPageCreator.php:108
+msgid "Customization"
+msgstr "Customization"
+
+#: admin/SettingsPageCreator.php:114
+msgid "Default welcome message"
+msgstr "Standaard welkomsbericht"
+
+#: admin/SettingsPageCreator.php:116
+msgid ""
+"this is an automatically generated message that is shown to users when they "
+"start a chat."
+msgstr ""
+"Dit is een automatisch gegenereerd bericht dat aan gebruikers wordt getoont "
+"voor ze een chat starten."
+
+#: admin/SettingsPageCreator.php:120
+msgid ""
+"Auto-show a chat popup button on single views of the following post-types"
+msgstr ""
+"Toon de chat popup automatisch op single-views van de volgende post-types"
+
+#: admin/SettingsPageCreator.php:126
+msgid "Always show the chat popup button on these profile pages"
+msgstr "Toon automatisch een chat popup bij de volgende profiel pagina's"
+
+#: admin/SettingsPageCreator.php:139
+msgid "Show the chat popup button on author pages"
+msgstr "Toon de chat popup op auteur-pagina's"
+
+#: admin/SettingsPageCreator.php:144
+msgid "Keep popup open as the user navigates the pages"
+msgstr "Houdt de popup open als de gebruiker door de site surft."
+
+#: admin/ui/SettingsPage.php:214
+msgid "Save settings"
+msgstr "Instellingen opslaan"
+
+#: chat/Widget.php:20
+msgid "TalkJS Chat"
+msgstr "TalkJS Chat"
+
+#: chat/Widget.php:24
+msgid "TalkJS Chat application as a widget"
+msgstr "TalkJS Chat applicatie als een wdiget"
+
+#: chat/Widget.php:102
+msgid "Author of the page the widget is on"
+msgstr "Auteur van de pagina waar de widget op staat."
+
+#: chat/Widget.php:113
+msgid "Widget title"
+msgstr "Widget titel"
+
+#: chat/Widget.php:117
+msgid "Welcome message"
+msgstr "Welkomsbericht"
+
+#: chat/Widget.php:120
+msgid "Chat with..."
+msgstr "Chat met..."
+
+#: helpers/Messages.php:51
+#, php-format
+msgid ""
+"You haven't yet provided your TalkJS Api Key. <a href=\"%s\" alt=\"Add a "
+"TalkJS api key\">Please do so here</a>"
+msgstr ""
+"Je hebt je TalkJS Api Key nog niet ingevuld. <a href=\"%s\" alt=\"Voeg een "
+"TalkJS api key toe\">Dat kun je hier doen</a>"
+
+#: inbox/PageGenerator.php:48
+msgid "Inbox"
+msgstr "Inbox"
