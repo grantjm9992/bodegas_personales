@@ -112,6 +112,8 @@ define( 'NONCE_SALT',       'izR?8h(gYOGEX)Y@SaIL&;o(3#:T3uK~vfB[RPCjU&}_7wLTb`P
 
 /**#@-*/
 
+define( 'WP_HOME', 'http://localhost/bodegas_personales' );
+define( 'WP_SITEURL', 'http://localhost/bodegas_personales' );
 
 
 /**
