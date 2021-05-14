@@ -42,25 +42,25 @@
 
 /** The name of the database for WordPress */
 
-define( 'DB_NAME', 'laclave_bodegas_personales' );
+define( 'DB_NAME', '' );
 
 
 
 /** MySQL database username */
 
-define( 'DB_USER', 'laclave_roberto' );
+define( 'DB_USER', '' );
 
 
 
 /** MySQL database password */
 
-define( 'DB_PASSWORD', 'Evalcal65rob' );
+define( 'DB_PASSWORD', '' );
 
 
 
 /** MySQL hostname */
 
-define( 'DB_HOST', '178.33.162.91' );
+define( 'DB_HOST', '' );
 
 
 
